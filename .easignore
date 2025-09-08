@@ -1,0 +1,14 @@
+.DS_Store
+*.log
+node_modules
+dist
+build
+.tmp
+.expo
+.expo-shared
+ios
+android
+.git
+
+# local folders to exclude
+sankalp7-fresh

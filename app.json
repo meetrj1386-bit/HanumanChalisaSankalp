@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Hanuman Chalisa Sankalp",
+    "slug": "HanumanChalisa",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFF3E2"
+    },
+    "ios": {
+      "bundleIdentifier": "com.hanumanchalisa.sankalp7",
+      "buildNumber": "2",
+      "supportsTablet": true,
+      "infoPlist": {
+        "UIBackgroundModes": [
+          "audio"
+        ],
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "plugins": [
+      "expo-notifications"
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "b752d220-33a0-4b83-8aa1-6111d3ba7625"
+      }
+    }
+  }
+}
